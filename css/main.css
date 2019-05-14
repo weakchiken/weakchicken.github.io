@@ -1666,6 +1666,15 @@ pre .javascript .function {
 #qr p {
   text-align: center;
 }
+#qr #if hexo-config('reward_settings.animation') > div:hover p {
+  animation: roll 0.1s infinite linear;
+}
+#qr #if hexo-config('reward_settings.animation') #@keyframes roll from {
+  transform: rotateZ(30deg);
+}
+#qr #if hexo-config('reward_settings.animation') #@keyframes roll to {
+  transform: rotateZ(-30deg);
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1808,7 +1817,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #45e547;
+  background: #282286;
 }
 .feed-link,
 .chat {
