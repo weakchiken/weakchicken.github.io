@@ -1817,7 +1817,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #be83ff;
+  background: #ab0196;
 }
 .feed-link,
 .chat {
@@ -2828,8 +2828,4 @@ ul.breadcrumb li+li:last-child {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-body {
-  background: url("http://prjci71ov.bkt.clouddn.com/%5B130511%5D%E9%B5%9C%E9%A3%BC%E3%81%84-44873217.png");
-  background-attachment: fixed;
 }
