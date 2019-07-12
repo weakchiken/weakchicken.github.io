@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[MySQL简介]]></title>
+    <url>%2F2019%2F07%2F12%2FMySQL%2F</url>
+    <content type="text"><![CDATA[什么是数据库？？数据库（Database）是按照数据结构来组织、存储和管理数据的仓库。1234每个数据库都有一个或多个不同的 API 用于创建，访问，管理，搜索和复制所保存的数据。我们也可以将数据存储在文件中，但是在文件中读写数据速度相对较慢。所以，现在我们使用关系型数据库管理系统（RDBMS）来存储和管理的大数据量。所谓的关系型数据库，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据。RDBMS 即关系数据库管理系统(Relational Database Management System)的特点：1.数据以表格的形式出现2.每行为各种记录名称3.每列为记录名称所对应的数据域4.许多的行和列组成一张表单5.若干的表单组成databaseRDBMS术语12345678910数据库: 数据库是一些关联表的集合。数据表: 表是数据的矩阵。在一个数据库中的表看起来像一个简单的电子表格。列: 一列(数据元素) 包含了相同的数据, 例如邮政编码的数据。行：一行（=元组，或记录）是一组相关的数据，例如一条用户订阅的数据。冗余：存储两倍数据，冗余降低了性能，但提高了数据的安全性。主键：主键是唯一的。一个数据表中只能包含一个主键。你可以使用主键来查询数据。外键：外键用于关联两个表。复合键：复合键（组合键）将多个列作为一个索引键，一般用于复合索引。索引：使用索引可快速访问数据库表中的特定信息。索引是对数据库表中一列或多列的值进行排序的一种结构。类似于书籍的目录。参照完整性: 参照的完整性要求关系中不允许引用不存在的实体。与实体完整性是关系模型必须满足的完整性约束条件，目的是保证数据的一致性。基础知识12345表头(header): 每一列的名称;列(col): 具有相同数据类型的数据的集合;行(row): 每一行用来描述某条记录的具体信息;值(value): 行的具体信息, 每个值必须与该列的数据类型相同;键(key): 键的值在当前列中具有唯一性。MySQL简介MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，目前属于 Oracle 公司。MySQL 是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。相关内容：1234567MySQL 是开源的，所以你不需要支付额外的费用。MySQL 支持大型的数据库。可以处理拥有上千万条记录的大型数据库。MySQL 使用标准的 SQL 数据语言形式。MySQL 可以运行于多个系统上，并且支持多种语言。这些编程语言包括 C、C++、Python、Java、Perl、PHP、Eiffel、Ruby 和 Tcl 等。MySQL 对PHP有很好的支持，PHP 是目前最流行的 Web 开发语言。MySQL 支持大型数据库，支持 5000 万条记录的数据仓库，32 位系统表文件最大可支持 4GB，64 位系统支持最大的表文件为8TB。MySQL 是可以定制的，采用了 GPL 协议，你可以修改源码来开发自己的 MySQL 系统。]]></content>
+      <categories>
+        <category>数据库</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[request]]></title>
     <url>%2F2019%2F07%2F06%2Frequest%2F</url>
     <content type="text"><![CDATA[前提摘要想写下这一篇的原因还是起源于在网上下载图片的时候一张一张下载的太慢而且麻烦，所以就想着写一个东西， 能够快速批量下载。于是，就有了爬虫的想法，当然，以我现有水平只能够用request去爬取，爬虫的相关内容会在以后慢慢更新的一句话，我用爬虫就是用来下载资源的~后面会更新相关内容来完善。。。。注意:以下内容都是以python3为基础实现简单介绍网络爬虫是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。 服务器的交互方式http中与服务器定义的几种基本交互方式，get、post、delete、put、head和options。get请求常用于查询获取资源信息，常见表现形式url传递参数数据， 以？开始&amp;分隔参数值。post请求向服务器提交数据。put请求向服务器端发送信息修改数据。delete请求向服务器发送信息删除数据。基础先要了解request是一个模块，在python中就是一个库，用来抓取网上资源的 下载requests模块 若是安装过python3，则命令端输入`pip install requests`即可 用法先导入`requests`模块(这个模块名称为requests)只不过平时都说是request了，这一点不能弄错 import requests 与请求网址交互 1234requests.get(&quot;url&quot;)requests.post(&quot;url&quot;)requests.put(&quot;url&quot;)request.delete(&quot;url&quot;) 说一下常用的GET请求： 两种方法： 1.直接传: 例如：requests.get(&quot;http://www.baidu.com&quot;) 2.间接传: 例如：url = &quot;http://www.baidu.com&quot; requests.get(url=url) 间接传的好处是可以添加其他参数 常用属性和方法1234567url #打印返回地址text #以文本方式返回html源码content #以字节流返回html源码cookies #返回cookies信息status_code #打印状态码headers #返回html头信息encoding #处理字符集get请求回复对象所包含的属性：12345678resp = requests.get()resp.text 获取网站源码（字符串类型）resp.encoding 访问或定制编码方式,如一般所得网页源码出现乱码的情况下可以设置：resp.encoding=&apos;gb2312&apos;resp.url 获取请求的urlresp.content 获取网站源码，但响应的是字节类型resp.status_code 响应的状态码resp.headers 响应的头信息resp.json() 获取json数据]]></content>
