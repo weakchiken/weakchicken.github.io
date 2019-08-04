@@ -95,7 +95,7 @@ function loadWidget(waifuPath, apiPath) {
 	var userAction = false,
 		hitokotoTimer = null,
 		messageTimer = null,
-		messageArray = ["已经过了这么久了呀，日子过得好快呢……", "大坏蛋！你都多久没碰人家了呀，嘤嘤嘤～", "嗨～快来逗我玩吧！", "拿小拳拳锤你胸口！"];
+		messageArray = ["已经过了这么久了呀，日子过得好快呢……", "大坏蛋！你都多久没碰人家了呀，嘤嘤嘤～", "嗨～快来逗我玩吧！", "拿小拳拳锤你胸口！", "我想你了， 你呢？"];
 	if ($(".fa-share-alt").is(":hidden")) messageArray.push("记得把小家加入Adblock白名单哦！");
 	$(document).mousemove(function() {
 		userAction = true;
