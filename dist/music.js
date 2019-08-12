@@ -23,7 +23,7 @@ const ap = new APlayer({
         {
             name: '广寒宫', //如果只有一首歌，删掉这一块，如有更多歌曲按此格式逐渐往下添加
             artist: '丸子呦',
-            url: 'http://music.163.com/song/media/outer/url?id=id=1362125019.mp3',
+            url: 'http://music.163.com/song/media/outer/url?id=1362125019.mp3',
             cover: 'http://p2.music.126.net/t2Y3otEoZ6DoHj49itSJKA==/109951164036717561.jpg?param=90y90',
             //lrc: 'lrc2.lrc',
             theme: '#46718b'
