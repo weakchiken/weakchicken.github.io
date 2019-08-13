@@ -2,7 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'), //播放器容器元素
     mini: false, //迷你模式
     autoplay: false, //自动播放
-    theme: '#FADFA3', //主题色
+    theme: '#76e0ea', //主题色
     loop: 'all', //音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环
     order: 'random', //音频循环顺序, 可选值: 'list'列表循环, 'random'随机循环
     preload: 'auto', //预加载，可选值: 'none', 'metadata', 'auto'
