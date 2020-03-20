@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/11/29/CTF/</loc>
+    <loc>http://yoursite.com/%E8%A7%86%E9%A2%91%E7%AB%99/index.html</loc>
     
-    <lastmod>2020-03-14T03:46:07.851Z</lastmod>
+    <lastmod>2020-03-20T13:49:19.795Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/resources/index.html</loc>
     
-    <lastmod>2020-03-14T03:39:43.013Z</lastmod>
+    <lastmod>2020-03-20T13:22:52.796Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/11/29/CTF/</loc>
+    
+    <lastmod>2020-03-14T03:46:07.851Z</lastmod>
     
   </url>
   
