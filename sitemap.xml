@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/06/19/Markdown%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    
+    <lastmod>2020-09-04T06:19:00.843Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/video/index.html</loc>
     
     <lastmod>2020-03-31T08:41:40.330Z</lastmod>
@@ -376,13 +383,6 @@
     <loc>http://yoursite.com/2019/06/22/next%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96(%E4%B8%80)/</loc>
     
     <lastmod>2019-08-27T08:44:46.487Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/06/19/Markdown%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
-    
-    <lastmod>2019-08-27T08:44:37.695Z</lastmod>
     
   </url>
   
